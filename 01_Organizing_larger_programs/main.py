@@ -1,5 +1,5 @@
 """
-Using packages to structur our code
+Using packages to structure our code
 
 Python's basic tool for organizing the code is module 
 
