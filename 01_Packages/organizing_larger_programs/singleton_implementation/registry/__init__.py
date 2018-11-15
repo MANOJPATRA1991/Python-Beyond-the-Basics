@@ -1,0 +1,1 @@
+from registry.registry import register, registered_names
