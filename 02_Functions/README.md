@@ -1,9 +1,10 @@
 # Summary
 
-* Callable objects are of three types:
+* Callable objects are of four types:
   1. Functions
   2. Callable instances
   3. Lambdas
+  4. Classes
 
 * Functions are **first-class** meaning they are objects that can be passed around like any other objects.
 
