@@ -1,6 +1,6 @@
 import unittest
 from collections.abc import (Container, Sized, Iterable, Sequence, Set)
-from src.sorted_set import SortedSet
+from .src.sorted_set import SortedSet
 
 
 class TestConstruction(unittest.TestCase):
