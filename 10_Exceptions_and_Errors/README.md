@@ -143,3 +143,8 @@ BaseException
      If the condition is False an **AssertionError** exception is raised and if a message is supplied, it is used as the exception payload.
 
     Assertion should only be used to check the correctness of the function implementation *not the function arguments*.
+
+| IMPLICIT CHAINING                                                                                                                                | EXPLICIT CHAINING                                                                                                  |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| During processing of one exception  another exception occurs                                                                                     | When we wish to deliberately handle  an exception by translating it  into a different exception type               |
+| Association of the original exception with the new exception is done by setting the special `__context__` attribute of the most recent exception | Association of the original exception  with the new exception is done by setting the special `__cause__` attribute |
